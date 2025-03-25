@@ -1,5 +1,4 @@
 import fs from 'node:fs';
-import { describe } from 'node:test';
 import prompt from 'prompt-sync';
 const input = prompt({ sigint: true });
 
@@ -24,13 +23,7 @@ const writeFile = async (filePath, data) => {
 }
 const tasks = await readFile('task.txt');
 if (!Array.isArray(tasks)) { tasks = [] };
-const taskType = {
-    id: Number,
-    description: String,
-    status: String,
-    createdAt: Date,
-    updatedAt: Date
-}
+
 console.log('Command line task manager , add <task> , remove <task id> , update <task id>, list , quit');
 console.log("to update use update <index of old task> <new task>")
 while (true) {
