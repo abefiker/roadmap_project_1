@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "description": "shaka",
+    "amount": "20",
+    "createdAt": "2025-03-25T08:41:08.701Z",
+    "updatedAt": "2025-03-25T08:41:08.703Z"
+  },
+  {
+    "id": 2,
+    "description": "coffee",
+    "amount": 100,
+    "createdAt": "2025-03-25T08:42:47.169Z",
+    "updatedAt": "2025-03-25T08:45:50.254Z"
+  }
+]
