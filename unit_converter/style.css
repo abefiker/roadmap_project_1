@@ -1,0 +1,54 @@
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  text-align: center;
+  background-color: #f8f8f8;
+}
+
+.container {
+  inline-size: 50%;
+  margin: auto;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+  margin-block-end: 20px;
+}
+
+.tab {
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 1.2em;
+  color: black;
+}
+
+.tab.active {
+  color: blue;
+  text-decoration: underline;
+}
+
+input,
+button {
+  display: block;
+  inline-size: 80%;
+  margin: 10px auto;
+  padding: 8px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+button {
+  cursor: pointer;
+  background: white;
+}
+
+.hidden {
+  display: none;
+}
+
+#result p {
+  font-size: 1.5em;
+}

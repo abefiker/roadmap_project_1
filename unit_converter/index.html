@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Unit Converter</h1>
+      <nav>
+        <a href="" class="tab active" data-type="length">Length</a>
+        <a href="" class="tab" data-type="weight">Weight</a>
+        <a href="" class="tab" data-type="temperature">Temperature</a>
+      </nav>
+      <div id="converter">
+        <label for="input">Enter the value to convert</label>
+        <input type="number" id="input" />
+        <label for="from">Unit to Convert from</label>
+        <input type="text" id="from" placeholder="e.g., ft" />
+        <label for="to">Unit to Convert to</label>
+        <input type="text" id="to" placeholder="e.g., cm" />
+        <button type="submit" id="convert">Convert</button>
+      </div>
+      <div id="result" class="hidden">
+        <p id="output"></p>
+        <button id="reset">Reset</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
